@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Códigos QR para Tu Negocio: ¡Adiós a la Fricción!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f8f8; /* Fondo suave */
+        }
+        /* Estilo personalizado para el botón CTA */
+        .btn-cta {
+            background-image: linear-gradient(to right, #4CAF50 0%, #8BC34A 100%);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .btn-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+        /* Clase para el efecto de movimiento del celular/QR */
+        @keyframes scanAnimation {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+            100% { transform: translateY(0); }
+        }
+        .animate-scan {
+            animation: scanAnimation 1.5s infinite ease-in-out;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Hero Section -->
+    <header class="bg-gradient-to-r from-emerald-500 to-lime-600 text-white py-16 px-4 sm:px-6 lg:px-8 text-center rounded-b-3xl shadow-xl">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4 leading-tight">
+                ¡Adiós a la Fricción! 😩
+            </h1>
+            <p class="text-lg sm:text-xl mb-8 opacity-90">
+                ¿Cansado de los procesos lentos y la confusión en tu negocio? Es hora de un **upgrade** con nuestros Códigos QR.
+            </p>
+            <a href="#contact" class="btn-cta text-white font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transition duration-300 ease-in-out inline-block">
+                ¡Lleva tu Negocio al Siguiente Nivel!
+            </a>
+        </div>
+    </header>
+
+    <!-- Problema/Solución Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-white rounded-3xl shadow-lg -mt-10 mx-4 sm:mx-8 md:mx-16 lg:mx-24 relative z-10">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-gray-900">
+                Resuelve Problemas, Añade Valor
+            </h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="text-left">
+                    <p class="text-lg mb-6 leading-relaxed">
+                        En el mundo actual, la **inmediatez** es clave. La espera, la confusión y los procesos manuales pueden frustrar a tus clientes y robarte un tiempo valioso. Pero no te preocupes, ¡tenemos la solución!
+                    </p>
+                    <p class="text-lg mb-6 leading-relaxed">
+                        Nosotros te ayudamos a crear **Códigos QR** que no solo son una moda, sino una herramienta poderosa que resuelve problemas reales y añade un valor inmenso a tu empresa.
+                    </p>
+                    <p class="text-lg leading-relaxed font-semibold text-emerald-600">
+                        ¡Es hora de transformar esas fricciones en eficiencia!
+                    </p>
+                </div>
+                <div class="flex justify-center relative">
+                    <!-- Ilustración de un celular escaneando un QR -->
+                    <img src="https://placehold.co/300x500/A7F3D0/10B981?text=Celular+Escaneando+QR" alt="Celular escaneando Código QR" class="w-48 md:w-64 lg:w-72 rounded-xl shadow-2xl animate-scan">
+                    <div class="absolute -top-10 -right-5 w-32 h-32 bg-lime-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse"></div>
+                    <div class="absolute -bottom-10 -left-5 w-40 h-40 bg-emerald-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse delay-300"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-12 text-gray-900">
+                Un QR para Cada Necesidad: Beneficios Concretos
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Benefit Card 1: Pagos Rápidos -->
+                <div class="bg-white rounded-xl shadow-md p-6 text-center transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-emerald-500 text-5xl mb-4">💳</div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Pagos sin Fricción</h3>
+                    <p class="text-gray-600">
+                        ¿Problema con los pagos lentos o el efectivo? Con un QR de pagos, tus clientes pueden realizar transacciones rápidas y seguras con un simple escaneo desde su móvil. ¡Agiliza tu caja!
+                    </p>
+                </div>
+
+                <!-- Benefit Card 2: Menús Digitales -->
+                <div class="bg-white rounded-xl shadow-md p-6 text-center transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-emerald-500 text-5xl mb-4">📋</div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Menús Siempre al Día</h3>
+                    <p class="text-gray-600">
+                        ¿Menús impresos obsoletos y costosos de actualizar? Ofrece a tus clientes un menú digital siempre actualizado a través de un QR. ¡Cambia precios o platillos al instante!
+                    </p>
+                </div>
+
+                <!-- Benefit Card 3: Formularios Simplificados -->
+                <div class="bg-white rounded-xl shadow-md p-6 text-center transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-emerald-500 text-5xl mb-4">📝</div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Formularios Intuitivos</h3>
+                    <p class="text-gray-600">
+                        ¿Formularios complejos que aburren a tus clientes? Dirígelos a formularios online intuitivos con un QR. Recopila información de manera eficiente y sin errores.
+                    </p>
+                </div>
+
+                <!-- Benefit Card 4: Wi-Fi con Un Clic -->
+                <div class="bg-white rounded-xl shadow-md p-6 text-center transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-emerald-500 text-5xl mb-4">📶</div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Wi-Fi Gratis, Fácil y Rápido</h3>
+                    <p class="text-gray-600">
+                        ¿Cansado de dar tu clave de Wi-Fi mil veces al día? Crea un QR para #WifiGratis. Tus clientes se conectarán con un solo clic, mejorando su experiencia en tu local.
+                    </p>
+                </div>
+
+                <!-- Benefit Card 5: Feedback Directo -->
+                <div class="bg-white rounded-xl shadow-md p-6 text-center transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-emerald-500 text-5xl mb-4">💬</div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Feedback Instantáneo</h3>
+                    <p class="text-gray-600">
+                        Facilita a tus clientes dejar opiniones o comentarios. Un QR puede llevarlos directamente a una encuesta de satisfacción o a tus redes sociales. ¡Conoce su opinión al instante!
+                    </p>
+                </div>
+
+                <!-- Benefit Card 6: Información de Contacto -->
+                <div class="bg-white rounded-xl shadow-md p-6 text-center transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-emerald-500 text-5xl mb-4">📞</div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Contactos al Instante</h3>
+                    <p class="text-gray-600">
+                        Comparte tu información de contacto, ubicación en Google Maps o enlaces a tus redes sociales de forma inmediata. ¡Conéctate con tus clientes sin fricciones!
+                    </p>
+                </div>
+
+            </div>
+            <div class="text-center mt-12">
+                <p class="text-2xl font-bold text-gray-900 mb-4">
+                    No importa la necesidad, ¡tenemos un QR para ti!
+                </p>
+                <p class="text-xl text-gray-700">
+                    Mejora la eficiencia, ahorra tiempo y ofrece una experiencia superior a tus clientes.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="contact" class="bg-emerald-700 text-white py-16 px-4 sm:px-6 lg:px-8 text-center rounded-t-3xl shadow-xl">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-6 leading-tight">
+                ¡Es Hora de Llevar Tu Negocio al Siguiente Nivel!
+            </h2>
+            <p class="text-lg sm:text-xl mb-8 opacity-90">
+                Deja atrás la fricción y abraza la eficiencia. Estamos listos para crear soluciones QR personalizadas que impulsen tu empresa.
+            </p>
+            <a href="https://www.instagram.com/multiformat.co/" target="_blank" rel="noopener noreferrer" class="btn-cta text-white font-bold py-4 px-10 rounded-full shadow-lg hover:shadow-xl transition duration-300 ease-in-out text-xl inline-block">
+                ¡Escríbenos Ahora!
+            </a>
+            <p class="mt-8 text-sm opacity-70">
+                Conéctate con nosotros en Instagram: <a href="https://www.instagram.com/multiformat.co/" target="_blank" rel="noopener noreferrer" class="underline hover:text-lime-200 transition-colors duration-300">@multiformat.co</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8 px-4 sm:px-6 lg:px-8 text-center">
+        <p class="text-sm">
+            © 2025 Multiformat.co - Todos los derechos reservados.
+        </p>
+        <p class="text-sm mt-2">
+            Desarrollado con ❤️ para Barrancabermeja y el mundo.
+        </p>
+    </footer>
+
+</body>
+</html>

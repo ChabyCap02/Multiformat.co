@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiformat - Tu Aplicación Móvil a Medida con AppSheet</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000000; /* Negro profundo */
+            color: #FFFFFF; /* Blanco para texto general */
+        }
+        .text-orange-custom {
+            color: #FF5722; /* Un naranja vibrante */
+        }
+        .bg-orange-custom {
+            background-color: #FF5722; /* Un naranja vibrante */
+        }
+        .border-orange-custom {
+            border-color: #FF5722;
+        }
+        .card {
+            background-color: #1a1a1a; /* Gris oscuro para las tarjetas */
+        }
+        .cta-button {
+            padding: 1rem 2.5rem;
+            border-radius: 0.75rem; /* rounded-xl */
+            font-weight: 700; /* font-bold */
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #E64A19; /* Naranja ligeramente más oscuro al pasar el mouse */
+        }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen flex flex-col items-center justify-center p-4">
+
+        <!-- Hero Section -->
+        <header class="text-center py-16 md:py-24 max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                <span class="text-orange-custom">Aplicaciones Móviles a Medida:</span> Transforma tu Negocio
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-8">
+                Soluciones adaptables con AppSheet: un solo pago, beneficios ilimitados.
+            </p>
+            <a href="#cta-section" class="cta-button bg-orange-custom text-white shadow-lg transform hover:scale-105">
+                Quiero mi Aplicación Personalizada
+            </a>
+        </header>
+
+        <!-- What it Does Section -->
+        <section class="py-16 md:py-20 w-full max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-orange-custom">
+                La Solución AppSheet que tu Negocio Necesita
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Feature Card 1: Adaptabilidad -->
+                <div class="card p-8 rounded-xl shadow-lg border border-orange-custom/30 transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-orange-custom text-5xl mb-4 text-center">🔄</div>
+                    <h3 class="text-2xl font-semibold mb-4 text-center">Adaptabilidad Total</h3>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li>Diseñada para cualquier tipo de necesidad, desde talleres hasta consultorías.</li>
+                        <li>Se ajusta al tamaño y complejidad de tu operación.</li>
+                        <li>Evoluciona contigo: escala según crece tu negocio.</li>
+                    </ul>
+                </div>
+
+                <!-- Feature Card 2: Pago Único y Beneficios -->
+                <div class="card p-8 rounded-xl shadow-lg border border-orange-custom/30 transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-orange-custom text-5xl mb-4 text-center">💲</div>
+                    <h3 class="text-2xl font-semibold mb-4 text-center">Un Solo Pago, Múltiples Beneficios</h3>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li>Invierte una única vez en la plantilla lista para usar.</li>
+                        <li>Acceso inmediato a la gestión y control de tu negocio.</li>
+                        <li>Sin costos de desarrollo recurrentes.</li>
+                    </ul>
+                </div>
+
+                <!-- Feature Card 3: Capacitación y Personalización -->
+                <div class="card p-8 rounded-xl shadow-lg border border-orange-custom/30 transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-orange-custom text-5xl mb-4 text-center">👨‍🏫⚙️</div>
+                    <h3 class="text-2xl font-semibold mb-4 text-center">Capacitación y Personalización</h3>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li>Soporte inicial y capacitación para que la uses sin problemas.</li>
+                        <li>Personalizamos el sistema según tus procesos y flujo de trabajo.</li>
+                        <li>Tú decides las funcionalidades que necesitas, nosotros las implementamos.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="py-16 md:py-20 w-full max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-orange-custom">
+                ¿Por Qué Elegir AppSheet con Multiformat?
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+                <div class="flex items-start p-4 card rounded-xl shadow border border-orange-custom/20">
+                    <div class="text-orange-custom text-3xl mr-4">🚀</div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Impulsa tu Eficiencia</h3>
+                        <p class="text-gray-300">Automatiza tareas, reduce errores y centraliza tu información para una gestión más ágil.</p>
+                    </div>
+                </div>
+                <div class="flex items-start p-4 card rounded-xl shadow border border-orange-custom/20">
+                    <div class="text-orange-custom text-3xl mr-4">💼</div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Decisiones Informadas</h3>
+                        <p class="text-gray-300">Accede a datos en tiempo real para tomar las mejores decisiones y potenciar tu crecimiento.</p>
+                    </div>
+                </div>
+                <div class="flex items-start p-4 card rounded-xl shadow border border-orange-custom/20">
+                    <div class="text-orange-custom text-3xl mr-4">📈</div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Crecimiento Sostenible</h3>
+                        <p class="text-gray-300">Una herramienta que se adapta a tus necesidades presentes y futuras, facilitando tu expansión.</p>
+                    </div>
+                </div>
+                <div class="flex items-start p-4 card rounded-xl shadow border border-orange-custom/20">
+                    <div class="text-orange-custom text-3xl mr-4">🔒</div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Seguridad y Confianza</h3>
+                        <p class="text-gray-300">Aprovecha la infraestructura segura de Google y la experiencia de Multiformat.</p>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-12 text-gray-400 italic text-lg">
+                <span class="font-bold text-orange-custom">Importante:</span> El precio de la plantilla cubre la configuración y personalización inicial. La licencia de uso de AppSheet se gestiona directamente con Google, ofreciendo planes adaptados a cada necesidad.
+            </p>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="cta-section" class="py-16 md:py-20 w-full max-w-4xl mx-auto text-center card p-8 md:p-12 rounded-xl shadow-2xl border-2 border-orange-custom mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6 text-orange-custom">
+                ¡Tu Negocio en la Palma de tu Mano, Hoy!
+            </h2>
+            <p class="text-xl md:text-2xl text-gray-200 mb-8">
+                Empieza a transformar tu gestión con una aplicación móvil hecha a tu medida.
+            </p>
+            <a href="https://www.instagram.com/multiformat.co/" target="_blank" class="cta-button bg-orange-custom text-white shadow-xl transform hover:scale-105 hover:bg-orange-700 transition-all duration-300 inline-block">
+                👉 Contacta a Multiformat para tu Demo Gratuita
+            </a>
+            <p class="mt-6 text-gray-400">
+                Estamos listos para adaptarnos a las necesidades de tu negocio.
+            </p>
+        </section>
+
+        <!-- Footer -->
+        <footer class="w-full text-center py-8 text-gray-500 text-sm">
+            &copy; 2025 Multiformat. Todos los derechos reservados.
+        </footer>
+    </div>
+</body>
+</html>
