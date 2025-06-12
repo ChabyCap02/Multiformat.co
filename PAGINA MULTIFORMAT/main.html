@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiformat - Transforma Tu Negocio Digitalmente</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a1a1a; /* Dark background */
+            color: #f0f0f0; /* Light text for contrast */
+        }
+        .text-accent-orange {
+            color: #f97316; /* Tailwind orange-500 */
+        }
+        .bg-accent-orange {
+            background-color: #f97316;
+        }
+        .border-accent-orange {
+            border-color: #f97316;
+        }
+        .text-dark-gray {
+            color: #2c2c2c;
+        }
+        .bg-dark-gray {
+            background-color: #2c2c2c;
+        }
+        .card-glow:hover {
+            box-shadow: 0 0 15px rgba(249, 115, 22, 0.6); /* Orange glow on hover */
+            transform: translateY(-5px); /* Subtle lift effect */
+        }
+        /* Style for clickable service cards */
+        .service-card-link {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center; /* Center items horizontally */
+            text-decoration: none; /* Remove underline from link */
+            color: inherit; /* Inherit text color */
+            height: 100%; /* Ensure link covers full height of grid item */
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="bg-black text-white py-4 shadow-lg z-10 relative">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+            <div class="flex items-center">
+                <!-- Multiformat Logo -->
+                <img src="/img/logo.jpg" 
+                     onerror="this.onerror=null;this.src='https://placehold.co/80x80/ffffff/ff8c00?text=Logo';" 
+                     alt="Multiformat Logo" 
+                     class="h-14 w-14 object-contain p-1 mr-3">
+                <span class="text-3xl font-extrabold tracking-wide">MULTIFORMAT</span>
+            </div>
+            <nav>
+                <a href="https://www.instagram.com/multiformat.co/" target="_blank" class="bg-accent-orange hover:bg-orange-600 text-white font-bold py-2 px-6 rounded-full text-lg transition duration-300 transform hover:scale-105 shadow-lg">
+                    Contáctanos
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section: Engaging Title -->
+    <section class="relative bg-dark-gray py-24 md:py-32 px-4 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-black via-dark-gray to-gray-900 opacity-90"></div>
+        <div class="absolute inset-0 z-0 pointer-events-none opacity-20">
+            <!-- Background pattern or subtle design elements -->
+            <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                    <pattern id="pattern-circles" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse">
+                        <circle id="pattern-circle" cx="2" cy="2" r="1.5" fill="#f97316" opacity="0.1"></circle>
+                    </pattern>
+                </defs>
+                <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern-circles)"></rect>
+            </svg>
+        </div>
+        
+        <div class="container mx-auto text-center relative z-10 max-w-4xl">
+            <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6 animate-pulse-fade text-accent-orange">
+                DESBLOQUEA EL POTENCIAL DIGITAL DE TU NEGOCIO
+            </h1>
+            <p class="text-xl md:text-2xl mb-10 font-light max-w-2xl mx-auto">
+                En Multiformat, te ayudamos a <strong>transformar y catapultar tu marca</strong> hacia el éxito en la era digital.
+                <strong>¡El futuro de tu negocio comienza aquí!</strong>
+            </p>
+            <a href="https://www.instagram.com/multiformat.co/" target="_blank" class="inline-block bg-white hover:bg-gray-200 text-dark-gray font-bold text-xl py-4 px-10 rounded-full shadow-2xl transition-transform transform hover:scale-105 duration-300 ease-in-out border-2 border-accent-orange">
+                ¡LLEVEMOS TU NEGOCIO AL SIGUIENTE NIVEL!
+            </a>
+        </div>
+    </section>
+
+
+
+    <!-- Services Section -->
+    <!-- Services Section -->
+    <!-- Services Section -->
+    <section id="services" class="py-16 md:py-24 px-4 bg-black">
+        <div class="container mx-auto">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-center text-accent-orange mb-12">Nuestros Servicios Clave</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card: Publicidad (Ahora es un enlace) -->
+                <!-- Service Card: Publicidad (Ahora es un enlace) -->
+                <!-- Service Card: Publicidad (Ahora es un enlace) -->
+                <a href="page servicies/publicidad.html" class="service-card-link bg-dark-gray rounded-xl shadow-lg p-6 md:p-8 border border-gray-800 card-glow">
+                    <div class="flex items-center justify-center bg-accent-orange rounded-full w-20 h-20 mb-6 mx-auto shadow-xl">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl md:text-3xl font-bold text-center mb-3 text-white">Publicidad Digital</h3>
+                    <p class="text-gray-400 text-center text-lg">
+                        Creamos campañas publicitarias estratégicas que impulsan tu marca y atraen clientes potenciales a tus plataformas.
+                    </p>
+                </a>
+
+                <!-- Service Card: Herramientas Digitales (Ahora es un enlace) -->
+                <a href="/page servicies/herramientas digitales.html" class="service-card-link bg-dark-gray rounded-xl shadow-lg p-6 md:p-8 border border-gray-800 card-glow">
+                    <div class="flex items-center justify-center bg-accent-orange rounded-full w-20 h-20 mb-6 mx-auto shadow-xl">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm-7-9a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                            <path fill-rule="evenodd" d="M10 9V5a1 1 0 012 0v4a1 1 0 01-2 0zm0 4a1 1 0 012 0v4a1 1 0 11-2 0v-4z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl md:text-3xl font-bold text-center mb-3 text-white">Herramientas Digitales</h3>
+                    <p class="text-gray-400 text-center text-lg">
+                        Implementamos soluciones innovadoras como formularios inteligentes, automatizaciones y códigos QR para optimizar tu operación.
+                    </p>
+                </a>
+
+                <!-- TALLER DE MOTOS -->
+                <!-- TALLER DE MOTOS -->
+                <!-- TALLER DE MOTOS -->
+                <a href="/page servicies/taller de motos.html" class="service-card-link bg-dark-gray rounded-xl shadow-lg p-6 md:p-8 border border-gray-800 card-glow">
+                    <div class="flex items-center justify-center bg-accent-orange rounded-full w-20 h-20 mb-6 mx-auto shadow-xl">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm-7-9a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                            <path fill-rule="evenodd" d="M10 9V5a1 1 0 012 0v4a1 1 0 01-2 0zm0 4a1 1 0 012 0v4a1 1 0 11-2 0v-4z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl md:text-3xl font-bold text-center mb-3 text-white">PLANTILLA PARA TALLER DE MOTOS</h3>
+                    <p class="text-gray-400 text-center text-lg">
+                        Implementamos soluciones innovadoras para tu taller de motos, seguimiento de facturas, productos disponibles, entre mas.
+                    </p>
+                </a>
+
+                <!-- pAplicacione appsheet -->
+                <a href="page servicies/aplicaciones appsheet.html" class="service-card-link bg-dark-gray rounded-xl shadow-lg p-6 md:p-8 border border-gray-800 card-glow">
+                    <div class="flex items-center justify-center bg-accent-orange rounded-full w-20 h-20 mb-6 mx-auto shadow-xl">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2.586l.293.293A1 1 0 009 16.414V18a1 1 0 001 1h4a1 1 0 001-1v-7.586l.293-.293a1 1 0 001.414 0l-7-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl md:text-3xl font-bold text-center mb-3 text-white">Apps Móviles y Escritorio (AppSheet)</h3>
+                    <p class="text-gray-400 text-center text-lg">
+                        Desarrollamos aplicaciones a medida para iOS, Android y escritorio, llevando tu negocio directamente a tus clientes.
+                    </p>
+                </a>
+
+                <!-- Service Card: Creación de Contenido (Ahora es un enlace) -->
+                <a href="page servicies/creacion de contenido.html" class="service-card-link bg-dark-gray rounded-xl shadow-lg p-6 md:p-8 border border-gray-800 card-glow">
+                    <div class="flex items-center justify-center bg-accent-orange rounded-full w-20 h-20 mb-6 mx-auto shadow-xl">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-4 4 4 4-4V5h-2v4l-3 3-4-4V5h-2V4h6a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 00-1 1v1a1 1 0 01-1 1h-2a1 1 0 01-1-1v-1a1 1 0 00-1-1H4V5a1 1 0 011-1h10a1 1 0 011 1v10z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl md:text-3xl font-bold text-center mb-3 text-white">Creación de Contenido</h3>
+                    <p class="text-gray-400 text-center text-lg">
+                        Desde textos persuasivos hasta videos y gráficos, producimos contenido de alto impacto que conecta con tu audiencia.
+                    </p>
+                </a>
+
+                <!-- Service Card: Diseño Gráfico (Ahora es un enlace) -->
+                <a href="page servicies/diseño grafico.html" class="service-card-link bg-dark-gray rounded-xl shadow-lg p-6 md:p-8 border border-gray-800 card-glow">
+                    <div class="flex items-center justify-center bg-accent-orange rounded-full w-20 h-20 mb-6 mx-auto shadow-xl">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M4 5a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2H4zm0 2h12v8H4V7zm2 0h8v1H6V7zm0 2h8v1H6V9zm0 2h8v1H6v-1z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl md:text-3xl font-bold text-center mb-3 text-white">Diseño Gráfico</h3>
+                    <p class="text-gray-400 text-center text-lg">
+                        Creamos identidades visuales memorables, logos, flyers y todo el material gráfico que tu marca necesita para destacar.
+                    </p>
+                </a>
+
+                <!-- Service Card: Pregunta por lo que no hagamos / Soluciones a Medida (Ahora es un enlace) -->
+                <a href="https://www.instagram.com/multiformat.co/" class="service-card-link bg-dark-gray rounded-xl shadow-lg p-6 md:p-8 border border-gray-800 card-glow">
+                    <div class="flex items-center justify-center bg-accent-orange rounded-full w-20 h-20 mb-6 mx-auto shadow-xl">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2h2a1 1 0 100-2H9zm6 3a1 1 0 10-2 0 1 1 0 002 0z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl md:text-3xl font-bold text-center mb-3 text-white">¿Necesitas algo más?</h3>
+                    <p class="text-gray-400 text-center text-lg">
+                        Si tienes una idea o un problema digital específico, <strong>¡pregúntanos!</strong> Nos especializamos en soluciones a medida.
+                    </p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section (Repeated for emphasis) -->
+    <section class="bg-gradient-to-l from-accent-orange to-orange-600 text-white py-16 px-4 text-center">
+        <div class="container mx-auto max-w-3xl">
+            <h2 class="text-3xl md:text-4xl font-extrabold mb-6">¡Comienza tu Transformación Digital Hoy Mismo!</h2>
+            <p class="text-xl md:text-2xl mb-10 font-light">
+                No esperes más. Con Multiformat, tu negocio tiene el poder de conquistar el mundo digital.
+            </p>
+            <a href="https://www.instagram.com/multiformat.co/" target="_blank" class="inline-block bg-black hover:bg-gray-800 text-accent-orange font-bold text-xl py-4 px-10 rounded-full shadow-2xl transition-transform transform hover:scale-105 duration-300 ease-in-out border-2 border-white">
+                CONÉCTATE CON NOSOTROS EN INSTAGRAM
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-gray-500 py-8 px-4 text-center">
+        <div class="container mx-auto">
+            <p>&copy; 2025 Multiformat. Todos los derechos reservados.</p>
+            <p class="text-sm mt-2">Impulsando negocios en la era digital con pasión y tecnología.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

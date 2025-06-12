@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiformat - Diseño Gráfico Profesional</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000000; /* Negro profundo */
+            color: #FFFFFF; /* Blanco para texto general */
+        }
+        .text-orange-custom {
+            color: #FF5722; /* Un naranja vibrante */
+        }
+        .bg-orange-custom {
+            background-color: #FF5722; /* Un naranja vibrante */
+        }
+        .border-orange-custom {
+            border-color: #FF5722;
+        }
+        .card {
+            background-color: #1a1a1a; /* Gris oscuro para las tarjetas */
+        }
+        .cta-button {
+            padding: 1rem 2.5rem;
+            border-radius: 0.75rem; /* rounded-xl */
+            font-weight: 700; /* font-bold */
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #E64A19; /* Naranja ligeramente más oscuro al pasar el mouse */
+        }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen flex flex-col items-center justify-center p-4">
+
+        <!-- Hero Section -->
+        <header class="text-center py-16 md:py-24 max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                <span class="text-orange-custom">Diseño Gráfico:</span> La Imagen de tu Éxito
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-8">
+                Creamos identidades visuales que conectan, comunican y cautivan a tu audiencia.
+            </p>
+            <a href="#cta-section" class="cta-button bg-orange-custom text-white shadow-lg transform hover:scale-105">
+                Quiero un Diseño que Deje Huella
+            </a>
+        </header>
+
+        <!-- Introduction Section -->
+        <section class="py-16 md:py-20 w-full max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8 text-orange-custom">
+                Más Allá de lo Bonito: Diseño con Propósito
+            </h2>
+            <p class="text-lg md:text-xl text-gray-300 leading-relaxed max-w-3xl mx-auto">
+                En <strong>Multiformat</strong>, entendemos que el diseño gráfico es una herramienta estratégica. No se trata solo de crear algo "bonito", sino de construir una <strong>identidad visual sólida</strong> que hable por tu marca, atraiga a tus clientes ideales y transmita tu mensaje de manera efectiva. Somos tu aliado para que tu negocio o proyecto personal brille en el mundo digital y físico.
+            </p>
+        </section>
+
+        <!-- What We Offer Section -->
+        <section class="py-16 md:py-20 w-full max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-orange-custom">
+                Nuestras Soluciones de Diseño Gráfico
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Offering Card 1: Identidad de Marca -->
+                <div class="card p-8 rounded-xl shadow-lg border border-orange-custom/30 transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-orange-custom text-5xl mb-4 text-center">✨</div>
+                    <h3 class="text-2xl font-semibold mb-4 text-center">Identidad de Marca y Logotipos</h3>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li><strong>Creación de logotipos</strong> que reflejan la esencia de tu negocio.</li>
+                        <li><strong>Diseño de manual de marca</strong> para consistencia visual.</li>
+                        <li>Paleta de colores, tipografías y elementos gráficos clave.</li>
+                    </ul>
+                </div>
+
+                <!-- Offering Card 2: Material Impreso -->
+                <div class="card p-8 rounded-xl shadow-lg border border-orange-custom/30 transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-orange-custom text-5xl mb-4 text-center">🖨️</div>
+                    <h3 class="2xl font-semibold mb-4 text-center">Material Impreso y Publicitario</h3>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li>Diseño de <strong>tarjetas de presentación, folletos, volantes, catálogos.</strong></li>
+                        <li>Creación de <strong>afiches, pendones y papelería corporativa.</strong></li>
+                        <li>Material listo para imprenta, optimizado para la mejor calidad.</li>
+                    </ul>
+                </div>
+
+                <!-- Offering Card 3: Diseño para Redes Sociales -->
+                <div class="card p-8 rounded-xl shadow-lg border border-orange-custom/30 transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-orange-custom text-5xl mb-4 text-center">📲</div>
+                    <h3 class="text-2xl font-semibold mb-4 text-center">Contenido Visual para Redes Sociales</h3>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li>Diseño de <strong>posts, stories, banners y portadas</strong> para tus perfiles.</li>
+                        <li>Gráficos atractivos para campañas publicitarias y promociones.</li>
+                        <li>Plantillas personalizadas para que mantengas la coherencia.</li>
+                    </ul>
+                </div>
+
+                <!-- Offering Card 4: Diseño Web (UI/UX) -->
+                <div class="card p-8 rounded-xl shadow-lg border border-orange-custom/30 transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-orange-custom text-5xl mb-4 text-center">🌐</div>
+                    <h3 class="text-2xl font-semibold mb-4 text-center">Diseño de Interfaces Web (UI/UX)</h3>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li>Diseño visual de <strong>páginas web intuitivas y atractivas</strong>.</li>
+                        <li>Creación de maquetas (mockups) y prototipos.</li>
+                        <li>Experiencia de usuario (UX) enfocada en la usabilidad y conversión.</li>
+                    </ul>
+                </div>
+
+                <!-- Offering Card 5: Ilustración e Infografías -->
+                <div class="card p-8 rounded-xl shadow-lg border border-orange-custom/30 transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-orange-custom text-5xl mb-4 text-center">💡</div>
+                    <h3 class="text-2xl font-semibold mb-4 text-center">Ilustración Digital e Infografías</h3>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li>Ilustraciones originales para tus proyectos o contenido.</li>
+                        <li><strong>Infografías claras y concisas</strong> para comunicar datos complejos.</li>
+                        <li>Representaciones visuales que simplifican información.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="py-16 md:py-20 w-full max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-orange-custom">
+                Beneficios Estratégicos de un Diseño de Calidad
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+                <div class="flex items-start p-6 card rounded-xl shadow border border-orange-custom/20">
+                    <div class="text-orange-custom text-4xl mr-4">🌟</div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Refuerza tu Imagen de Marca</h3>
+                        <p class="text-gray-300">Un diseño profesional genera confianza y credibilidad, haciendo que tu marca sea reconocida y respetada.</p>
+                    </div>
+                </div>
+                <div class="flex items-start p-6 card rounded-xl shadow border border-orange-custom/20">
+                    <div class="text-orange-custom text-4xl mr-4">🤝</div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Conecta Mejor con tu Audiencia</h3>
+                        <p class="text-gray-300">El diseño emocionalmente atractivo y bien pensado crea conexiones más profundas y duraderas con tus clientes.</p>
+                    </div>
+                </div>
+                <div class="flex items-start p-6 card rounded-xl shadow border border-orange-custom/20">
+                    <div class="text-orange-custom text-4xl mr-4">💰</div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Aumenta tus Ventas y Conversiones</h3>
+                        <p class="text-gray-300">Un buen diseño dirige la atención, facilita la comprensión y motiva a la acción, impactando directamente en tus resultados.</p>
+                    </div>
+                </div>
+                <div class="flex items-start p-6 card rounded-xl shadow border border-orange-custom/20">
+                    <div class="text-orange-custom text-4xl mr-4">⭐</div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Diferenciación Competitiva</h3>
+                        <p class="text-gray-300">Destácate en el mercado con una identidad visual única y profesional que te separe de la competencia.</p>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-12 text-gray-400 italic text-lg">
+                ¡En Multiformat, transformamos tus ideas en arte visual que comunica y vende!
+            </p>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="py-16 md:py-20 w-full max-w-4xl mx-auto text-center card p-8 md:p-12 rounded-xl shadow-2xl border-2 border-orange-custom mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6 text-orange-custom">
+                Invierte en una Imagen que Impacta
+            </h2>
+            <p class="text-xl md:text-2xl text-gray-200 mb-8">
+                Ofrecemos soluciones de diseño gráfico adaptadas a tu proyecto. Para que comiences a construir tu presencia visual, nuestro <strong>paquete inicial de diseño</strong> tiene un precio base de <span class="text-orange-custom font-extrabold">$165.000 COP</span>. Este paquete incluye:
+            </p>
+            <ul class="list-disc list-inside text-gray-300 space-y-2 text-left max-w-2xl mx-auto">
+                <li><strong>Diseño de logotipo</strong> o <strong>un flyer/post para redes sociales</strong> (opción a elegir).</li>
+                <li><strong>2 propuestas iniciales</strong> de diseño.</li>
+                <li><strong>Hasta 3 rondas de revisiones</strong> para asegurar tu satisfacción.</li>
+                <li><strong>Entrega de archivos finales</strong> en los formatos más comunes (JPG, PNG, PDF, SVG si aplica).</li>
+                <li><strong>Consultoría inicial</strong> para entender a fondo tus necesidades y objetivos.</li>
+            </ul>
+            <p class="mt-8 text-gray-400 italic text-lg">
+                Proyectos más complejos, como manuales de marca completos o diseño web, serán cotizados de forma personalizada tras un análisis detallado.
+            </p>
+        </section>
+
+        <!-- Service Conditions Section -->
+        <section class="py-16 md:py-20 w-full max-w-4xl mx-auto text-center card p-8 md:p-12 rounded-xl shadow-lg border border-orange-custom/20">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6 text-orange-custom">
+                Condiciones del Servicio: Lo que <span class="text-red-500">NO INCLUYE</span>
+            </h2>
+            <p class="text-xl md:text-2xl text-gray-200 mb-8">
+                Nuestro servicio se enfoca exclusivamente en la creación de los activos visuales. Para una mayor transparencia, te informamos lo que este servicio NO contempla:
+            </p>
+            <ul class="list-disc list-inside text-gray-300 space-y-2 text-left max-w-2xl mx-auto">
+                <li><strong>Impresión física</strong> de cualquier material diseñado (tarjetas, folletos, etc.). Te entregamos los archivos listos para imprenta.</li>
+                <li><strong>Desarrollo de sitios web o aplicaciones:</strong> Diseñamos las interfaces (UI/UX), pero la codificación y programación no están incluidas.</li>
+                <li><strong>Estrategia de marketing digital o publicidad:</strong> Proveemos los diseños, pero la planificación y ejecución de campañas de marketing no son parte de este servicio.</li>
+                <li><strong>Creación de contenido textual o copywriting:</strong> El cliente debe proveer el texto o material escrito que se incluirá en los diseños.</li>
+                <li><strong>Fotografía o videografía profesional:</strong> Se asume que el cliente proveerá las imágenes de alta calidad necesarias, o podemos cotizar este servicio adicionalmente si lo requieres.</li>
+                <li><strong>Gestión de redes sociales:</strong> Diseñamos el contenido, pero la publicación y administración de perfiles no están incluidas.</li>
+            </ul>
+            <p class="mt-8 text-gray-400 italic text-lg">
+                Nuestro enfoque es dar vida a tu visión a través de un diseño excepcional.
+            </p>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="cta-section" class="py-16 md:py-20 w-full max-w-4xl mx-auto text-center card p-8 md:p-12 rounded-xl shadow-2xl border-2 border-orange-custom mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6 text-orange-custom">
+                ¡Dale a tu Marca la Imagen que se Merece!
+            </h2>
+            <p class="text-xl md:text-2xl text-gray-200 mb-8">
+                ¿Listo para elevar tu presencia visual con un diseño profesional y estratégico?
+            </p>
+            <a href="https://www.instagram.com/multiformat.co/" target="_blank" class="cta-button bg-orange-custom text-white shadow-xl transform hover:scale-105 hover:bg-orange-700 transition-all duration-300 inline-block">
+                👉 Contacta a Multiformat para tu Proyecto
+            </a>
+            <p class="mt-6 text-gray-400">
+                Estamos aquí para convertir tus ideas en diseños que impactan.
+            </p>
+        </section>
+
+        <!-- Footer -->
+        <footer class="w-full text-center py-8 text-gray-500 text-sm">
+            &copy; 2025 Multiformat. Todos los derechos reservados.
+        </footer>
+    </div>
+</body>
+</html>
